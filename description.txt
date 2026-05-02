@@ -1,0 +1,17 @@
+This workflow gets triggeres when someone pushes code to the main branch 
+
+    git starts a VM 
+    downloads our repo 
+    prints a msg 
+
+Push to main
+   ↓
+GitHub triggers workflow
+   ↓
+Creates Ubuntu VM
+   ↓
+Downloads repo
+   ↓
+Runs echo command
+   ↓
+Shows output in logs
